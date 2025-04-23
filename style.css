@@ -63,6 +63,7 @@ body{
 .error{
     animation: shake 0.1s linear 10;
 }
+/* add the error animation when the text field is left blank and the button is pressed*/
 @keyframes shake{
     0%{
         transform: translate(0);
